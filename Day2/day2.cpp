@@ -171,6 +171,26 @@ int main (){
 }
 */
 
+// ? Printing the ABC pattern 1 using loop
+int main (){
+
+    int i = 1;
+    while(i<=3){
+        int j = 1;
+        char ch = 'A';
+        while(j<=3){
+            cout << ch << " ";
+            ch += 1;
+            j++ ; 
+
+        }
+    cout << "\n";
+    i++ ; 
+
+    }
+
+}
+
     
 
 
