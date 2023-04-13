@@ -49,6 +49,11 @@ int main() {
     char ch = 123456;
     cout << ch << endl;
 
-    unsigned int positive = 112;  // ? printing between-( 0  2^32-1)
+    unsigned int positive = -112;  // ? printing between-( 0  2^32-1)
     cout << positive << endl;
+
+    // ! Operators ------------------------
+
+    cout << 2/5 << endl;
+    cout << 10.0/3 << endl;
 }
