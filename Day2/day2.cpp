@@ -134,7 +134,7 @@ int main() {
 }
 */
 
-
+/*
 // ! Printing the number pattern 3 using loop
 
 int main() {
@@ -151,9 +151,25 @@ int main() {
     cout << "\n";
     i++ ;
     }
-
-
 }
+*/
+/*
+
+// ? Printing the star pattern 1 using loop
+
+int main (){
+    int i = 1;
+    while (i<10){
+        int j = 1;
+        while(j<=i){
+            cout << i-j+1 << " ";
+            j++ ; 
+            }
+        cout << "\n";
+        i++ ;
+    }
+}
+*/
 
     
 
