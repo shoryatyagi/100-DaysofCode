@@ -26,6 +26,7 @@ int main() {
 }
 */
 
+
 /*
 int main() {
     // ? printing sum of first n natural numbers
@@ -40,6 +41,8 @@ int main() {
     cout << "The result of "<< num <<"natural numbers is "<< result;
 }
 */
+
+
 /*
     // ? Checking if the number is prime or not 
 int main() {
@@ -69,3 +72,42 @@ int main() {
      
 }
 */
+
+
+/*
+// ! Printing square pattern using loop
+int main() {
+
+    int i = 0;
+    int num = 4;
+    while(i<num){
+        int k =0;
+
+        while(k<num){
+            cout<< "*";
+            k++;
+        }
+    cout << "\n";
+    i++;
+    }
+
+}
+*/
+
+// ! Printing the number pattern using loop
+int main() {
+
+    int i = 1;
+    int num = 4;
+
+    while(i<num){
+        int k = 1;
+        while(k<num){
+            cout<< i ;
+            k++;
+        }
+    cout<< "\n";
+    i++;
+    }
+
+}    
