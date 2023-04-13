@@ -26,6 +26,7 @@ int main() {
 }
 */
 
+/*
 int main() {
     // ? printing sum of first n natural numbers
     int num;
@@ -38,3 +39,33 @@ int main() {
     }
     cout << "The result of "<< num <<"natural numbers is "<< result;
 }
+*/
+/*
+    // ? Checking if the number is prime or not 
+int main() {
+    int num;
+    cin>>num;
+
+    int num2 = 2;
+    int count = 0;
+    while(num2<num){
+
+        if (num%num2 == 0){
+            num2++;
+        }
+
+        else{
+            count++;
+            num2++;
+        }
+
+    }
+    if (count==0){
+        cout << "Prime Number";
+    }
+    else{
+        cout << "Not Prime Number";
+    }
+     
+}
+*/
