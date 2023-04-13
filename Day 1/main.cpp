@@ -46,4 +46,9 @@ int main() {
     char g = 103;
     cout << g << endl;
 
+    char ch = 123456;
+    cout << ch << endl;
+
+    unsigned int positive = 112;  // ? printing between-( 0  2^32-1)
+    cout << positive << endl;
 }
