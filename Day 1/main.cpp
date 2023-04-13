@@ -53,6 +53,15 @@ int main() {
     cout << positive << endl;
 
     // ! Operators ------------------------
+    /* todo
+
+        Arithmetic operators = + - * / %  ++ --
+        Logical operators = || && !
+        Assignment operators = += -=  *= /= %= += &= |= 
+        Comparison Operators = < > == != >= <=
+
+
+    */
 
     cout << 2/5 << endl;
     cout << 10.0/3 << endl;
