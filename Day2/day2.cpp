@@ -114,6 +114,8 @@ int main() {
 
 }    
 */
+
+/*
 // ! Printing the number pattern 2 using loop
 
 int main() {
@@ -129,9 +131,33 @@ int main() {
         i++ ;
 
     }
+}
+*/
+
+
+// ! Printing the number pattern 3 using loop
+
+int main() {
+
+    int i = 1 ;
+    int count = 1 ;
+    while(i<5){
+        int j = 1;
+        while(j<5){
+         cout <<count<< " ";
+         count++ ;
+         j++ ;
+            }
+    cout << "\n";
+    i++ ;
+    }
+
+
+}
+
     
 
 
 
 
-}
+
