@@ -55,7 +55,7 @@ int main(){
 }
 */
 
-
+/*
 //? fibonacci series
 int main(){
     int n = 10;
@@ -70,4 +70,25 @@ int main(){
         a=b;
         b=nextNumber;
     }
+}
+*/
+// ! checking if the number is prime or not
+int main(){
+    int num ;
+    cin>>num;
+    int count = 0;
+    for (int i =2;i<num;i++){
+        if(num%i==0){
+            count++;
+            i++;
+        }
+    }
+    if (count==0){
+         cout<<"prime number";
+    }
+    else{
+        cout<<"not prime number";
+    }
+   
+    
 }
