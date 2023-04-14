@@ -214,7 +214,22 @@ int main(){
 }
 */
 
+//! Printing the star pattern 3 using loop
+int main(){
+    int i = 1  ;
+    int num = 10;
+    while (i<=num){
+        int j = 1;
+        while (j<=num-i+1){
+            cout << "*" ;
+            j++ ;
+        }
+        cout << "\n";
+        i ++ ; 
 
+
+    }
+}
     
 
 
