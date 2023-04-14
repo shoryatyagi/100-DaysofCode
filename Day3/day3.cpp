@@ -30,7 +30,7 @@ int main(){
 */
 
 // todo for loop in c++
-
+/*
 // ? printing counting from 1 to n
 int main(){
     cout<< "Enter vale of n : ";
@@ -41,4 +41,15 @@ int main(){
 
     }
 
+}
+*/
+
+// ? multiple variable in for loop
+
+int main(){
+    for(int i =4,b=4; i>=0 && b>=1; i--,b--){
+
+        cout << i << " " << b << endl;
+
+    }
 }
