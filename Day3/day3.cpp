@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+/*
 //? Bitwise Operators = | & ~ ^ <<
 
 int main(){
@@ -25,4 +26,19 @@ int main(){
     }
     cout<< "\n";
     cout<<c<<" "<<d<<endl;
+}
+*/
+
+// todo for loop in c++
+
+// ? printing counting from 1 to n
+int main(){
+    cout<< "Enter vale of n : ";
+    int n;
+    cin>>n;
+    for (int i =1; i<=n; i++){
+        cout << i<<endl;
+
+    }
+
 }
