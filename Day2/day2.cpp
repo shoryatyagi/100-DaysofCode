@@ -253,7 +253,70 @@ int main() {
     }
 }
 */
-    
+/*
+// ! Printing the number pattern using loop
+int main(){
+    int i =1;
+    int num = 10;
+    while (i<=num){
+        int j = 1;
+        while(j<=num-i){
+            cout << " " ;
+            j++ ; 
+        }
+        int k =1 ;
+        while (k<=i){
+            cout << k ;
+            k++ ;
+        }
+        
+        int l = 1 ;
+        while (l<=i-1){
+            cout<< i-l;
+            l++ ; 
+        }
+
+        cout << "\n";
+        i++ ;
+
+    }
+}
+*/
+
+//! Printing the number and star pattern using loop
+
+int main(){
+        int i = 1;
+        int num = 5;
+        while (i<=num){
+            int j = 1;
+            while(j<=num-i+1){
+                cout << j ;
+                j++ ; 
+            }
+            int star1 = 1 ;
+            while(star1<=i-1){
+                cout<< "*";
+                star1 ++ ;
+            }
+           int star2 = 1 ;
+            while(star2<=i-1){
+                cout<< "*";
+                star2 ++ ;
+            }
+            int k =1;
+            while (k<=num-i+1)
+            {
+                cout << num-1;
+                k++ ;
+            }
+            
+            cout << "\n";
+            i++ ;
+
+        }
+
+}
 
 
 
