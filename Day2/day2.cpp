@@ -170,6 +170,7 @@ int main (){
     }
 }
 */
+/*
 
 // ? Printing the ABC pattern 1 using loop
 int main (){
@@ -190,6 +191,29 @@ int main (){
     }
 
 }
+*/
+/*
+//! Printing the star pattern2 using loop
+int main(){
+    int i = 1;
+    int num =40;
+    while(i<=num){
+        int j = 1;
+        while(j<=num-i){
+            cout << " ";
+            j++ ;
+        }
+        int k = 1;
+        while(k<=i){
+            cout<< "*";
+            k++ ;
+        }
+        cout << "\n";
+        i ++ ; 
+    }
+}
+*/
+
 
     
 
