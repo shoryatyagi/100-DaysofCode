@@ -58,6 +58,7 @@ int main(){
 }
 */
 
+/*
 //! Finding nCr using function
 
 int nCr(int n , int r){
@@ -91,4 +92,21 @@ int main(){
 
     int result = nCr(n,r);
     cout<< "Answer of nCr : " << result << endl;
+}
+*/
+
+//! Finding the nth term of the A.P.
+
+int nth_term(int n){
+    int result = 3*n+7;
+    return result;
+}
+
+int main(){
+    cout<< "Enter the value of n "; 
+    int n;
+    cin>> n;
+    int ans = nth_term(n);
+    cout<< "Answer of nth_term : " << ans << endl;
+
 }
