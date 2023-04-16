@@ -128,7 +128,6 @@ int fibonacci_term(int n){
         if (i == n-2){
             return next_no;
         }
-
     }
 }
 
