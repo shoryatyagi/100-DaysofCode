@@ -142,7 +142,7 @@ int main(){
 
 }
 */
-// variable in function and outside the function definition
+//? variable in function and outside the function definition
 int update(int a){
     int ans = a* a;
     return ans;
