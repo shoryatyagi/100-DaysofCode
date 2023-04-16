@@ -113,6 +113,7 @@ int main(){
 }
 */
 
+/*
 // ! Finding the nth term of the fibonacci series
 int fibonacci_term(int n){
     int a = 0;
@@ -139,4 +140,16 @@ int main(){
     int ans = fibonacci_term(n);
     cout<< "Answer of nth_term : " << ans << endl;
 
+}
+*/
+// variable in function and outside the function definition
+int update(int a){
+    int ans = a* a;
+    return ans;
+}
+
+int main(){
+    int a = 15;
+    a = update(a);
+    cout<<a <<endl;
 }
