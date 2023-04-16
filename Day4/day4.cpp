@@ -95,6 +95,7 @@ int main(){
 }
 */
 
+/*
 //! Finding the nth term of the A.P.
 
 int nth_term(int n){
@@ -107,6 +108,36 @@ int main(){
     int n;
     cin>> n;
     int ans = nth_term(n);
+    cout<< "Answer of nth_term : " << ans << endl;
+
+}
+*/
+
+// ! Finding the nth term of the fibonacci series
+int fibonacci_term(int n){
+    int a = 0;
+    int b = 1;
+
+    cout << a<<" "<<b <<" ";
+    for (int i = 1; i <=n-2; i++){
+        int next_no = a+ b;
+        cout << next_no <<" ";
+
+        a = b;
+        b= next_no;
+        if (i == n-2){
+            return next_no;
+        }
+
+    }
+}
+
+int main(){
+    cout<< "Enter the value of n "; 
+    int n;
+    cin>> n;
+
+    int ans = fibonacci_term(n);
     cout<< "Answer of nth_term : " << ans << endl;
 
 }
