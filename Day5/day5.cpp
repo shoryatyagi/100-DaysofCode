@@ -96,7 +96,7 @@ int main(){
     }
 }
 */
-
+/*
 //? Reversing an array
 
 void printArray(int arr[],int n){
@@ -105,7 +105,7 @@ void printArray(int arr[],int n){
     cout << endl;
 }
 
-int swapArray(int arr[],int n){
+void swapArray(int arr[],int n){
     int start = 0;
     int end = n-1;
 
@@ -127,6 +127,34 @@ int main(){
     printArray(arr,6);
     printArray(brr,5);
     
+}
+*/
+
+//? Swapping the alternate elements of the array
+
+void printArray(int arr[],int n){
+    for (int i = 0; i<n; i++){
+        cout << arr[i] << " "; }
+    cout << endl;
+}
+void Alter_element(int arr[],int n){
+    for (int i = 0; i<n; i+=2){
+        if (i+1< n){
+            swap(arr[i],arr[i+1]);
+        }
+    }
+}
+int main(){
+    int even[6] = {8,9,4,6,7,2};
+    int odd[5] = {4,6,9,1,2};
+    cout<< "Before Alternating : "<<endl;
+    printArray(even,6);
+    printArray(odd,5);
+    cout<< "After Alternating : "<<endl;
+    Alter_element(even,6);
+    Alter_element(odd,5);
+    printArray(even,6);
+    printArray(odd,5);
 }
 
 
