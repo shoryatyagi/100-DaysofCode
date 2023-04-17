@@ -73,6 +73,7 @@ int main(){
 }
 */
 
+/*
 // ? linear search algorithm
 
 bool search(int arr[],int n,int key){
@@ -93,6 +94,39 @@ int main(){
     else{
         cout << "Key is not present !";
     }
+}
+*/
+
+//? Reversing an array
+
+void printArray(int arr[],int n){
+    for (int i = 0; i<n; i++){
+        cout << arr[i] << " "; }
+    cout << endl;
+}
+
+int swapArray(int arr[],int n){
+    int start = 0;
+    int end = n-1;
+
+    while(start<=end){
+        swap(arr[start],arr[end]);
+        start++ ;
+        end --;     }
+}
+
+int main(){
+    int arr[6] = {8,9,4,3,2,7};
+    int brr[5] = {6,9,2,4,1};
+    cout<< "Before Reversing : "<<endl;
+    printArray(arr,6);
+    printArray(brr,5);
+    cout<< "After Reversing : "<<endl;
+    swapArray(arr,6);
+    swapArray(brr,5);
+    printArray(arr,6);
+    printArray(brr,5);
+    
 }
 
 
