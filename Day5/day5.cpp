@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-
+/*
 //? Array Initialization 
 int main(){
 
@@ -31,5 +31,45 @@ int main(){
         int c = array3[i];
         cout << c << " ";
     }
+}
+*/
+
+//? Max and Min in array
+
+int getMin(int arr[],int n){
+    int min = INT32_MAX;
+    for(int i = 0; i<n; i++){
+        if(arr[i] < min){
+            min = arr[i];
+        }
+    }
+    return min;
+}
+
+int getMax(int arr[],int n){
+    int max = INT32_MIN;
+    for(int i = 0; i<n; i++){
+        if(arr[i] > max){
+            max = arr[i];
+        // or max = max(max,num[i]);
+        }
+    }
+    return max;
+}
+
+int main(){
+    int size;
+    cout<< "Enter the size : ";
+    cin>>size;
+
+    int num[100];
+    for (int i = 0; i < size; i++){
+        cin>>num[i];
+    }
+
+    cout << "Maximum Value : " << getMax(num,size) << endl;
+    cout << "Minimum Value : " << getMin(num,size) << endl;
+
+
 }
 
