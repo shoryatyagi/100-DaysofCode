@@ -158,7 +158,7 @@ int main(){
     printArray(odd,5);
 }
 */
-
+/*
 //? binary search algorithm
 
 int binary_search(int arr[], int size, int key) {
@@ -188,6 +188,25 @@ int main(){
     int odd[5] = {1,3,5,7,9};
     int index = binary_search(even,6,19);
     cout<< "Element Found !"<<endl<<"index : "<< index << endl;
+}
+*/
+
+//? Convert decimal into binary
+int main() {
+   int num[10];
+   int input;
+   cin>> input;
+   int i = 0;
+   while(input!=0){
+        num[i] = input%2;
+        input /=2;
+        i++ ;
+       }
+    for(int j=i-1;j>=0;j--){
+        cout<<num[j];
+    }
+
+    return 0;
 }
 
 
