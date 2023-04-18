@@ -76,7 +76,7 @@ int main(){
 /*
 // ? linear search algorithm
 
-bool search(int arr[],int n,int key){
+bool linear_search(int arr[],int n,int key){
     for(int i = 0; i < n; i++){
         if(arr[i] == key)  return 1;
     }
@@ -88,7 +88,7 @@ int main(){
     int key;
     cout<< "Enter the key you want to search : ";
     cin>> key;
-    if (search(arr,10,key)){
+    if (linear_search(arr,10,key)){
         cout << "Key is present !";
     }
     else{
@@ -130,6 +130,7 @@ int main(){
 }
 */
 
+/*
 //? Swapping the alternate elements of the array
 
 void printArray(int arr[],int n){
@@ -156,5 +157,38 @@ int main(){
     printArray(even,6);
     printArray(odd,5);
 }
+*/
+
+//? binary search algorithm
+
+int binary_search(int arr[], int size, int key) {
+
+    int start = 0;
+    int end = size-1;
+
+    int mid = start + (end-start)/2;
+
+    while(start <= end) {
+        if(arr[mid] == key) {
+            return mid;
+        }
+        if(key > arr[mid]) {
+            start = mid + 1;
+        }
+        else{ 
+            end = mid - 1;
+        }
+        mid = start + (end-start)/2;
+    }
+    
+    return -1;  
+}
+int main(){
+    int even[6] = {2,8,9,18,19,27};
+    int odd[5] = {1,3,5,7,9};
+    int index = binary_search(even,6,19);
+    cout<< "Element Found !"<<endl<<"index : "<< index << endl;
+}
+
 
 
